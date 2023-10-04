@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@esm/index.mjs';
+import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@v0.1.1-esm/index.mjs';
 ```
 
 #### realmin( dtype )
@@ -96,7 +96,7 @@ The following numeric **real** types are supported:
 <body>
 <script type="module">
 
-import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@esm/index.mjs';
+import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@v0.1.1-esm/index.mjs';
 
 var m = realmin( 'float64' );
 // returns 2.2250738585072014e-308
