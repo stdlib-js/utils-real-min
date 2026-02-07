@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-real-min/tags). For example,
+
+```javascript
 import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@v0.2.3-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ The following numeric **real** types are supported:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@v0.2.3-deno/mod.js';
+import realmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-real-min@deno/mod.js';
 
 var m = realmin( 'float64' );
 // returns 2.2250738585072014e-308
